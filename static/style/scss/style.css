@@ -1197,13 +1197,3 @@ a:active,a:focus,a:link,a:visited {
   display: block;
   margin: auto;
 }
-.content-heading .content-title:before {
-  content: "";
-  background-color: #ffd900;
-  height: 100%;
-  width: 70%;
-  top: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
