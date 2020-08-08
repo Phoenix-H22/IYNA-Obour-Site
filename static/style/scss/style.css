@@ -1197,14 +1197,14 @@ a:active,a:focus,a:link,a:visited {
   display: block;
   margin: auto;
 }
-body .fxt-page-content .content-heading .content-title {
+.content-title {
   font-weight: 700;
   padding: 5px 10px 3px 0;
   display: inline-block;
   position: relative;
   z-index: 1;
 }
-body .fxt-page-content .content-heading .content-title:before {
+.content-heading .content-title:before {
   content: "";
   background-color: #ffd900;
   height: 100%;
