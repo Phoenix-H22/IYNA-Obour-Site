@@ -1215,7 +1215,6 @@ body .fxt-page-content .content-heading .content-title:before {
   z-index: -1;
 }
 .content-title {
-  content: "";
   background-color: #ffd900;
   height: 100%;
   width: 70%;
