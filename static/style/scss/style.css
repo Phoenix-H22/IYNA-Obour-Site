@@ -1214,3 +1214,13 @@ body .fxt-page-content .content-heading .content-title:before {
   position: absolute;
   z-index: -1;
 }
+.content-title {
+  content: "";
+  background-color: #ffd900;
+  height: 100%;
+  width: 70%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
