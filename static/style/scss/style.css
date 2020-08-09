@@ -808,11 +808,28 @@ html {
   padding: 40px 20%;
   margin: 0;
   width: 100%;
+  text-align: center;
 }
 
 .content-row h2 {
   margin-bottom: 30px;
   text-align: center;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+
+.content-row h2::before {
+
+  content: "";
+  background-color: #ffd900;
+  height: 100%;
+  width: 70%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  position: absolute;
+
 }
 
 img {
@@ -908,6 +925,11 @@ img {
   color: #fff;
   background-color: rgba(0,0,0,.5);
   max-width: 100%;
+}
+
+.bannertext h1 {
+  color: #fff;
+ 
 }
 
 .homebannertext {
@@ -1107,6 +1129,7 @@ a:active,a:focus,a:link,a:visited {
 .hover-card {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
   text-decoration: none;
+  transform: skewY(-5deg);
 }
 
 .hover-card:hover {
@@ -1115,6 +1138,12 @@ a:active,a:focus,a:link,a:visited {
   transform: scale(1.05);
   box-shadow: 0 .7rem 1.2rem rgba(0,0,0,.15);
 }
+
+.hover-card:hover h6{
+
+  color: rgb(145, 145, 0);
+}
+
 
 .particles-js-canvas-el {
   max-height: inherit!important;
