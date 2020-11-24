@@ -1560,4 +1560,6 @@ canvas {
 }
 .soon{
   font-size: 300px;
+  color: #ffcc00;
+  font-style: italic;
 }
