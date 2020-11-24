@@ -1562,4 +1562,6 @@ canvas {
   font-size: 300px;
   color: #ffcc00;
   font-style: italic;
+  font-weight: bolder;
+  outline: #1f1f1f;
 }
