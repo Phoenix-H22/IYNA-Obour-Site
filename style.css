@@ -1563,6 +1563,6 @@ canvas {
   color: #ffcc00;
   font-style: italic;
   font-weight: bolder;
-  outline: #1f1f1f;
-  outline: 40px;
+  -webkit-text-stroke-width: 20px;
+  -webkit-text-stroke-color: black;
 }
