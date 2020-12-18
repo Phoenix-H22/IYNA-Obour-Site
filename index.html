@@ -242,42 +242,26 @@
                         </div>
                        
 						<div class="fxt-form-wrap">
-                            <form action="https://formspree.io/f/xwkwwevl" method="POST" id="contact-form">
-                                <div class="row">
-                                    <div class="col-lg-12 form-group">
-                                        <div class="translate-bottom delay-1100">
-                                            <input type="text" class="form-control" placeholder="Full Name" name="name" data-error="Name field is required" required>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 form-group">
-                                        <div class="translate-bottom delay-1300">
-                                            <input type="email" class="form-control" placeholder="E-mail" name="email" data-error="Email field is required" required>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 form-group">
-                                        <div class="translate-bottom delay-1300">
-                                            <input type="text" class="form-control" placeholder="Subject" name="subject" data-error="Subject field is required" required>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 form-group">
-                                        <div class="translate-bottom delay-1500">
-                                            <textarea name="message" id="form-message" class="form-control textarea"
-                                            placeholder="Your Message" cols="30" rows="7" data-error="Message field is required" required></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 form-group">
-                                        <div class="translate-bottom delay-1700">
-                                            <button value="send" type="submit" class="fxt-btn fxt-btn-fill">SEND MESSAGE</button>
-											
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-response"></div>
-                            </form>
+                            <form action="https://formspree.io/f/xwkwwevl"
+                    method="POST" class="main_form">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control" placeholder="Your name" type="text" name="Your Name">
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <input class="form-control" placeholder="Email" type="text" name="Email">
+                            </div>
+                            <div class=" col-md-12">
+                                <input class="form-control" placeholder="Phone" type="text" name="Phone">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea class="textarea" placeholder="Message"></textarea>
+                            </div>
+                            <div class=" col-md-12">
+                                <button type="submit" class="send">Send</button>
+                            </div>
+                        </div>
+                    </form>
                         </div>                    
                     </div>
                 </section>
