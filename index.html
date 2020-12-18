@@ -255,7 +255,11 @@
                                 <input class="form-control" placeholder="Phone" type="text" name="Phone">
                             </div>
                             <div class="col-lg-12 form-group">
-                                <textarea class="textarea" placeholder="Message"></textarea>
+                                <div class="translate-bottom delay-1500">
+                                    <textarea name="message" id="form-message" class="form-control textarea"
+                                    placeholder="Your Message" cols="30" rows="7" data-error="Message field is required" required></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
                             </div>
                             <div class="col-lg-12 form-group">
                                 <button type="submit" class="send">Send</button>
