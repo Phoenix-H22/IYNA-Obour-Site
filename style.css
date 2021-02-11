@@ -1500,8 +1500,8 @@ body.open-sidebar .ofcanvas-triger .bar:nth-child(4) {
 }
 #logoe {
 resize: both;
-max-width: 65%;
-max-height: 65%;
+max-width: 60%;
+max-height: 60%;
   height: auto;
 width: auto;
 }
